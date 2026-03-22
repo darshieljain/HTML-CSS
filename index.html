@@ -4,40 +4,68 @@
             <meta charset="UTF-8">
             <meta name="Yuvi" content="Darshiel is great">
             <title>Darshiel's website</title>
+            <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
         </head>
-        <body style="background-color: lavenderblush">
-            <h1 style="color:lightseagreen">DARSHIEL JAIN</h1>
-            <h3> The Great Coder</h3>
-            <br>
-            <a href="https://github.com/darshieljain" target="_blank"><img width="40" height="40" src="https://cdn-icons-png.flaticon.com/512/25/25231.png"></a>
-            <a href="https://www.linkedin.com/in/darshiel-jain/"target="_blank"><img width="40" height="40" src="https://cdn-icons-png.flaticon.com/512/174/174857.png"></a>
-            
-            <hr><hr>
-            <h2>Location</h2>
-            <p style="color:mediumblue">I live in <b><big>Mumbai</big></b></p>
-            <hr>
-            <h2>Education</h2>
-            <p style="color:orangered">I study at <b><i><big>IIT BHU</big></i></b></p>
-            <hr>
+        <style>
+            .head2{
+                color:dodgerblue;
+                font-family: monospace;
+            }
+            p, .p{
+                color:mintcream;
+                }
+                .p a{
+                    color:#38bdf8;
+                    font-size:larger;
+                }
+                .p th , .p td{
+                    color:mintcream;
+                    border: 1px solid #38bdf855;
+                    padding: 8px 16px;
 
-            <h2>Family details</h2>
-            <ol type="I">
-                <li><a href="https://www.linkedin.com/in/prashant-jain-82134734/" target="_blank"><big>Prashant Jain</big></a></li>
-                <li><a href="https://www.linkedin.com/in/dr-karishma-jain-453730333/" target="_blank"><big>Karishma Jain</big></a></li>
-                <li><a href="https://www.linkedin.com/in/nikshay-jain/" target="_blank"><big>Nikshay Jain</big></a></li>        
+                }
+                table{
+                 border-collapse: collapse;
+            }
+        </style>
+        <body style="background-color:#0f172a">
+            <h1 style="color:#38bdf8; font-family: lobster;">DARSHIEL JAIN</h1>
+            <h3 style="color:#94a3b8"> The Great Coder</h3>
+            <img src="mypic.png" alt="Darshiel Jain" width="150" height="150" 
+style="border-radius: 50%; border: 3px solid #38bdf8; margin-top: 10px;">
+            <br>
+        <a href="https://github.com/darshieljain" target="_blank">
+            <img width="40" height="40" src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub">
+        </a>
+        <a href="https://www.linkedin.com/in/darshiel-jain/" target="_blank">
+            <img width="40" height="40" src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" alt="LinkedIn">
+        </a>   
+            <hr><hr>
+            <h2 class="head2">Location</h2>
+            <p class="p">I live in <b><span style="color: mediumblue; font-size:larger;">Mumbai</span></b></p>
+            <hr>
+            <h2 class="head2">Education</h2>
+            <p class="p">I study at <b><i><span style="color: orangered; font-size:larger;">IIT BHU</span></i></b></p>
+            <hr></span>
+
+            <h2 class="head2">Family details</h2>
+            <ol type="I" class="p">
+                <li><a href="https://www.linkedin.com/in/prashant-jain-82134734/" target="_blank" >Prashant Jain</a></li>
+                <li><a href="https://www.linkedin.com/in/dr-karishma-jain-453730333/" target="_blank">Karishma Jain</a></li>
+                <li><a href="https://www.linkedin.com/in/nikshay-jain/" target="_blank">Nikshay Jain</a></li>        
             </ol>
             
             <hr>
             <table>
-                <caption><h2>Personal Info</h2></caption>
+                <caption><h2 class="head2">Personal Info</h2></caption>
                 <thead>
-                    <tr>
+                    <tr class="p">
                         <th>DOB</th>
                         <th>POB</th>
                         <th>Blood Group</th>
                     </tr>
                 </thead>
-                    <tr>
+                    <tr class="p">
                         <td>14 May 2007</td>
                         <td>Jodhpur Rajasthan</td>
                         <td>O+ve</td>
